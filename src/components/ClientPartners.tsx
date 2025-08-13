@@ -79,13 +79,13 @@ const ClientPartners = () => {
           height: 50px;
           width: auto;
           object-fit: contain;
-          filter: grayscale(100%);
-          opacity: 0.7;
+          // filter: grayscale(100%);
+          // opacity: 0.7;
           transition: all 0.3s ease;
         }
 
         .partner-item:hover img {
-          filter: grayscale(0%);
+          // filter: grayscale(0%);
           opacity: 1;
         }
 
