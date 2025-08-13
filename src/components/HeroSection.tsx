@@ -89,7 +89,15 @@ const HeroSection = () => {
 
 
       <style jsx>{`
-        .hero-container { width: 100%; position: relative; background-color: #f0f8ff; display: flex; flex-direction: column; align-items: center; }
+        .hero-container { 
+          width: 100%; 
+          position: relative; 
+          min-height: calc(100vh - 90px); 
+          background-color: #f0f8ff; 
+          display: flex; 
+          flex-direction: column; 
+          align-items: center; 
+        }
         .fade-in { animation: fadeIn 1200ms ease-out both; }
         @keyframes fadeIn { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
 
