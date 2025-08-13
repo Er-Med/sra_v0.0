@@ -2,52 +2,52 @@
 import React from "react";
 
 const ClientPartners = () => {
- return (
-  <div className="client-partners-section">
-   <div className="partners-banner">
-    <div className="partners-track">
-     {/* First set of images */}
-     <div className="partner-item">
-      <img src="/clinet-01.png" alt="Client Partner 1" />
-     </div>
-     <div className="partner-item">
-      <img src="/clinet-02.png" alt="Client Partner 2" />
-     </div>
-     <div className="partner-item">
-      <img src="/clinet-03.png" alt="Client Partner 3" />
-     </div>
-     <div className="partner-item">
-      <img src="/clinet-04.png" alt="Client Partner 4" />
-     </div>
-     <div className="partner-item">
-      <img src="/clinet-05.png" alt="Client Partner 5" />
-     </div>
-     <div className="partner-item">
-      <img src="/clinet-06.png" alt="Client Partner 6" />
-     </div>
-     {/* Duplicate set for seamless loop */}
-     <div className="partner-item">
-      <img src="/clinet-01.png" alt="Client Partner 1" />
-     </div>
-     <div className="partner-item">
-      <img src="/clinet-02.png" alt="Client Partner 2" />
-     </div>
-     <div className="partner-item">
-      <img src="/clinet-03.png" alt="Client Partner 3" />
-     </div>
-     <div className="partner-item">
-      <img src="/clinet-04.png" alt="Client Partner 4" />
-     </div>
-     <div className="partner-item">
-      <img src="/clinet-05.png" alt="Client Partner 5" />
-     </div>
-     <div className="partner-item">
-      <img src="/clinet-06.png" alt="Client Partner 6" />
-     </div>
-    </div>
-   </div>
+  return (
+    <div className="client-partners-section">
+      <div className="partners-banner">
+        <div className="partners-track">
+          {/* First set of images */}
+          <div className="partner-item">
+            <img src="/clinet-01.png" alt="Client Partner 1" />
+          </div>
+          <div className="partner-item">
+            <img src="/clinet-02.png" alt="Client Partner 2" />
+          </div>
+          <div className="partner-item">
+            <img src="/clinet-03.png" alt="Client Partner 3" />
+          </div>
+          <div className="partner-item">
+            <img src="/clinet-04.png" alt="Client Partner 4" />
+          </div>
+          <div className="partner-item">
+            <img src="/clinet-05.png" alt="Client Partner 5" />
+          </div>
+          <div className="partner-item">
+            <img src="/clinet-06.png" alt="Client Partner 6" />
+          </div>
+          {/* Duplicate set for seamless loop */}
+          <div className="partner-item">
+            <img src="/clinet-01.png" alt="Client Partner 1" />
+          </div>
+          <div className="partner-item">
+            <img src="/clinet-02.png" alt="Client Partner 2" />
+          </div>
+          <div className="partner-item">
+            <img src="/clinet-03.png" alt="Client Partner 3" />
+          </div>
+          <div className="partner-item">
+            <img src="/clinet-04.png" alt="Client Partner 4" />
+          </div>
+          <div className="partner-item">
+            <img src="/clinet-05.png" alt="Client Partner 5" />
+          </div>
+          <div className="partner-item">
+            <img src="/clinet-06.png" alt="Client Partner 6" />
+          </div>
+        </div>
+      </div>
 
-   <style jsx>{`
+      <style jsx>{`
         .client-partners-section {
           width: 100%;
           background: #fff;
@@ -128,8 +128,8 @@ const ClientPartners = () => {
           }
         }
       `}</style>
-  </div>
- );
+    </div>
+  );
 };
 
 export default ClientPartners;

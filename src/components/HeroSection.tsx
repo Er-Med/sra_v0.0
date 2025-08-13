@@ -159,10 +159,10 @@ const HeroSection = () => {
           cursor: pointer;
           width: 15px;
           height: 25px;
-          transform: skew(40deg);
+          transform: skew(50deg);
           transition: all 0.3s ease;
-          border: 2px solid #0F4C75;
-          background-color: transparent;
+          border: 1px solid #0F4C75;
+          background-color: #fff;
         }
 
         .indicator-item.active {
