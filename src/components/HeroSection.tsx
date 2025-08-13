@@ -161,8 +161,8 @@ const HeroSection = () => {
           height: 25px;
           transform: skew(50deg);
           transition: all 0.3s ease;
-          border: 1px solid #0F4C75;
           background-color: #fff;
+          border: 1px solid #0F4C75;
         }
 
         .indicator-item.active {
