@@ -50,7 +50,7 @@ const ClientPartners = () => {
    <style jsx>{`
         .client-partners-section {
           width: 100%;
-          background: #f0f8ff;
+          background: #fff;
           padding: 60px 0;
           overflow: hidden;
         }
